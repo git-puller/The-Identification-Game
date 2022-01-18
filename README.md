@@ -14,8 +14,8 @@ Further information available here: https://www.kaggle.com/c/acse-miniproject/ov
 
 |Models      |Pre-trained|Val Acc    |	Trained dimensions|	Torch model Used |  
 | :------    | :------:  |  :------: | :-----:         |  :-----:      | 
-|Combined Model 1| yes| 0.877  | 299 224 144| Inception_v3+ResNet50+ResNet101|
-|Combined Model 2| yes| 0.864  | 299 224 144 128| Inception_v3+ResNet50+ResNet101+ DenseNet|
+|Ensemble Model 1| yes| 0.877  | 299 224 144| Inception_v3+ResNet50+ResNet101|
+|Ensemble Model 2| yes| 0.864  | 299 224 144 128| Inception_v3+ResNet50+ResNet101+ DenseNet|
 |Inceptionv3  |	yes     |	0.753   | 299            |	inception_v3   |  
 |ResNet50    |yes      |	0.8284  |  224           |	wide_resnet_50_2|  
 |ResNet101   | yes     |  0.787    |	144          |	wide_resnet101_2|  
@@ -26,7 +26,7 @@ Further information available here: https://www.kaggle.com/c/acse-miniproject/ov
 |Hardnet68   | yes     |    0.625  |64             |	hardnet85    |  
 | ResNext    |yes      |    0.6499 |  64            |resnext101_32x8d  |  
 
-Working Flow for Combined Model:   
+Working Flow for Ensemble Model:   
 ![avater](Joint_decision/combined_flowchart.jpg)  
 
 
