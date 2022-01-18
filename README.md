@@ -3,13 +3,14 @@
 
 The aim of the competition was to develop a classifier on an image dataset consisting of Natural Images (from ImageNet), with 3 RGB channels and 200 categories. 100k images with labels were provided when 10000 unlabeled pictures were provided as test data. Transfer learning on some mature neural network models was applied and the final validation accuracy of the ensemble model was 82.4%. Finally, it was decided to combine the top 4 models together and get a top 3 accuracy of 84.1% on the leaderboard.
 
+![](ImageNet_sample.png)
 
 Further information available here: https://www.kaggle.com/c/acse-miniproject/overview
 
 
 ## Models and methodology
 
-### Models results table:
+### Model table of results:
 
 |Models      |Pre-trained|Val Acc    |	Trained dimensions|	Torch model Used |  
 | :------    | :------:  |  :------: | :-----:         |  :-----:      | 
