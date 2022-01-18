@@ -7,9 +7,9 @@ The aim of the competition was to develop a classifier on an image dataset consi
 Further information available here: https://www.kaggle.com/c/acse-miniproject/overview
 
 
-# # Models and methodology
+## Models and methodology
 
-# # # Models results table:
+### Models results table:
 
 |Models      |Pre-trained|Val Acc    |	Trained dimensions|	Torch model Used |  
 | :------    | :------:  |  :------: | :-----:         |  :-----:      | 
@@ -29,7 +29,7 @@ Working Flow for Combined Model:
 ![avater](Joint_decision/combined_flowchart.jpg)  
 
 
-# # # Models list:
+### Models list:
 
 [Google_Inception_v3](Single_Model/Inception_raw_code.ipynb)    
 [ResNet50](Single_Model/ResNet_Training.py)  
@@ -39,7 +39,7 @@ Working Flow for Combined Model:
 ensemble code:
 [code](Joint_decision/joint_decision.ipynb)
 
-# # # Files:
+### Files:
 
 google drive links for all the PTH files:   
 https://drive.google.com/drive/folders/1IILwNPktyeMQ-ujK6UkMxVRs3xVfVz1c?usp=sharing  
@@ -47,7 +47,7 @@ Presentation Video link:
 https://web.microsoftstream.com/video/f28c4080-15f3-4c89-b9fc-99609a78f400
 
 
-# # Requirements:  
+## Requirements:  
 
 -torch  
 -torchvision  
