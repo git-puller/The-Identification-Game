@@ -1,9 +1,14 @@
-# ACSE 4.4 - Machine Learning Miniproject
+# Machine Learning Competition @ Imperial College
 # The Identification Game
 
-All information available here: https://www.kaggle.com/c/acse-miniproject/overview
 
-This project aims to classify 64*64 pictures with 3 RGB channels to 200 categories. 100000 training pictures with labels were provided when 10000 unlabeled pictures were provided as test data. Transfer learning on some mature neural network models were tried and got validation accuracy from 0.35-0.824. Finally, it was decided to combine the top 4 models together and get an outstanding top 3 accuracy of 0.841 at leaderboard.   
+The aim of the competition was to develop a classifier on an image dataset consisting of Natural Images (from ImageNet), with 3 RGB channels and 200 categories. 100k images with labels were provided when 10000 unlabeled pictures were provided as test data. Transfer learning on some mature neural network models was applied and the final validation accuracy of the ensemble model was 82.4%. Finally, it was decided to combine the top 4 models together and get a top 3 accuracy of 84.1% on the leaderboard.
+
+
+Further information available here: https://www.kaggle.com/c/acse-miniproject/overview
+
+
+
 Working Flow for Combined Model:   
 ![avater](Joint_decision/combined_flowchart.jpg)  
 model used (DenseNet Code with ML and the ensemble code were documented for demonstration):  
